@@ -3,10 +3,13 @@
 ---
 ## 描述：
 [Lintcode](http://www.lintcode.com)中题目的个人解题代码和思路。
+
 解题代码可能包含**C++，Java，Python**的一种或几种语言。
 
 ## 样例
-**C++** 1. A + B问题
+1. A + B问题
+
+**C++** 
 ```
 class Solution {
 public:
@@ -28,5 +31,5 @@ public:
 ## 解题思路
 - 思想：介绍个人思考问题的过程。- 具体操作：具体使用某算法和数据结构的解题步骤。
 
-## > ***人生，是从不充分的证据开始引出完美结论的一种艺术.***
-![Past, Present, Future](http://www.luke54.org/images/0/20120326104830962302.jpg)
+> ## ***人生，是从不充分的证据开始引出完美结论的一种艺术.***
+![Past, Present, Future](http://cdn1.itpro.co.uk/sites/itpro/files/images/dir_215/it_photo_107815.jpg)
