@@ -31,8 +31,7 @@ public:
 ## 解题思路
 - 思想：介绍个人思考问题的过程。- 具体操作：具体使用某算法和数据结构的解题步骤。
 
-<p></p>
-<p></p>
-
+\1
+\1
 > ## ***人生，是从不充分的证据开始引出完美结论的一种艺术.***
 ![Past, Present, Future](http://cdn1.itpro.co.uk/sites/itpro/files/images/dir_215/it_photo_107815.jpg)
