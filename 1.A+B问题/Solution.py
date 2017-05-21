@@ -4,8 +4,6 @@ class Solution:
     @param: : An integer
     @return: The sum of a and b
     """
-    MAX_BIT = 2**32
-    MAX_BIT_COMPLIMENT = -2**32
     def aplusb(self, a, b):
         # write your code here
         import ctypes
