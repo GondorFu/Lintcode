@@ -1,7 +1,7 @@
 
 # GondorFu
 ---
-## 描述：
+## 描述
 615: Course Schedule
 
 There are a total of n courses you have to take, labeled from 0 to n - 1.
@@ -37,7 +37,7 @@ Return false
 亚马逊 宽度优先搜索 Zenefits Topological Sort 脸书
 
 ## 解题思路
-- 思想：这是一道典型的拓扑排序题，主要涉及数据结构。
+- 思路：这是一道典型的拓扑排序题，主要涉及数据结构。
 
     基本思路是维持一个课程入度为零的数组，不断输出该数组中的元素，并将新的入度为零的课程加入该数组中。
 - 具体操作：首先遍历先行课程，用一个二维数据保存所有课程必须的先后信息。

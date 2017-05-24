@@ -19,7 +19,7 @@ O(n) time, O(1) extra space
 Cracking The Coding Interview 字符串处理
 
 ## 解题思路
-- 思想：
+- 思路：
     
     通过哈希存储每一个字符出现的次数，然后判断是否两字符串中字符出现的次数相等。
     
