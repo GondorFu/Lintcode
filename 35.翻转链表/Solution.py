@@ -9,23 +9,47 @@ class ListNode(object):
 """
 class Solution:
     """
-    @param head: The first node of the linked list.
-    @return: You should return the head of the reversed linked list. 
-                  Reverse it in-place.
+    @param head: The head of linked list
+    @param m: start position
+    @param n: end position
     """
-    def reverse(self, head):
+    def reverseBetween(self, head, m, n):
         # write your code here
-        if head == None:
-            return None
-        p = head
-        pp = p.next
-        while pp != None:
-            ppp = pp.next
-            pp.next = p
-            p = pp
-            pp = ppp
+        c = n - m
+        p = ListNode(0, head)
+        headp = p
+        while m-1 > 0:
+            p = p.next
+            m -= 1
+        pm = p.next
+        pmm = None
+        if c > 0:
+            pmm = pm.next
+        while c > 0:
+            c -= 1
+            pmmm = pmm.next
+            pmm.next = pm
+            pm, pmm = pmm, pmmm
             
-        head.next = None
-        return p
-        
+        p.next.next = pmm
+        p.next = pm
+        return headp.next
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
