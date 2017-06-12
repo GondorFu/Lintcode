@@ -1,9 +1,9 @@
 class Solution:
     """
-    @param S: The set of numbers.
-    @return: A list of lists. See example.
+    @param S: A set of numbers.
+    @return: A list of lists. All valid subsets.
     """
-    def subsets(self, S):
+    def subsetsWithDup(self, S):
         # write your code here
         S.sort()
         rlt = self._subsets(S)
@@ -18,7 +18,14 @@ class Solution:
             rlt.append(S)
             return rlt
         srlt = self._subsets(S[:-1])
-        rlt += srlt
+        if S[-2] != S[-1]:
+            rlt += srlt
+        else:
+            for v in srlt:
+                if len(v) == 0 or v[-1] != S[-1]:
+                    rlt.append(v)
+                else:
+                    break
         for v in srlt:
             rlt.append(v + [S[-1]])
         return rlt
